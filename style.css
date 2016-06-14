@@ -20,7 +20,7 @@ body
 
 }
 
-#header h1 { width:100%;text-align:center;color:#FFF;font-family:arial;line-height:0; }
+#header h1 { width:100%;text-align:center;color:#FFF;font-family:arial;line-height:0;font-size:50px; }
 
 #navigation
 {
@@ -62,6 +62,7 @@ body
 	width: 64%;
 	min-width: 820px;
 	background-color: #fff;
+
 }
 
 #edito h2
@@ -81,12 +82,20 @@ div.element
 	margin: 1%;
 	padding: 0%;
 	background-color: #fff;
+
 }
 div.element a
 {
 text-decoration:none;
 color:#00CCFF ;
 }
+
+div.element a:hover
+{
+color:#838383;
+}
+
+
 div.element img
 {
 	background-color : #fff;
@@ -110,7 +119,7 @@ p
 
 h2,h3
 {
-	color: #FFF;
+	color: #383838;
 	font-size: 160%;
 	margin: 20px 0 .5em;
 	text-align:center;
